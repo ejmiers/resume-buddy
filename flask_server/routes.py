@@ -57,7 +57,6 @@ def signup():
                                form.email.data, hashedPass)
 
             db.session.add(newAccount)
-            db.create_all()
             db.session.commit()
             flash(f'The account was successfully created.\
                     Please check your email for a confirmation email.', 'success')
