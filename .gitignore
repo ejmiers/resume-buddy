@@ -1,3 +1,6 @@
 # Ignored Directories
 env
 __pycache__
+
+# Ignored Files
+*.db
