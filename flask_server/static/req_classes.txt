@@ -1,0 +1,12 @@
+#This file contains different job sector classifications.
+#The keywords the scraper will look for is determined based on the job sector chosen.
+#By convention, classifications are listed in alphabetical order.
+#This file is read and parsed in the 'generateResume' route method in routes.py
+#Lines that start with '#' are commented out and will not be available as a choice.
+#
+#Business
+#Economics and Finance
+Engineering and Technology
+#Law
+#Management
+#Medical
