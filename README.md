@@ -1,2 +1,8 @@
-# resume-buddy
-Flask web-app to generate resumes tailored to a requisition 
+# Resume-Buddy
+Who manually reviews resumes anymore? In an increasingly automated world, companies have opted to automate the hiring process by utilizing tools that will parse resumes. Only resumes that match to certain keywords within a job requisition will be flagged for manual review by a recruiter.  
+  
+As a result, I often hear employee recruiters reccommend that applicants create mulitple resumes with each one being tailored specifically to a particular job requisition. This will give the applicant the best opportunity to have their application flagged for further consideration by the automated system. Creating customized resumes for every job application is inefficient use of time for a potentially marginal increase in "return on investment" when applying to jobs. The time spent creating custom resumes could be spent identifying more job opportunities, refining skills, or practicing for an imminent job interview. What if there was a better way?  
+  
+Introducing Resume-Buddy, a tool designed to automate the process of tailoring your resume to custom job requisitions. Instead of creating several resumes for specific applications, create just one master resume that contains all of your skills, projects, career experiences, coursework, certificates, and honors/awards that are relavent to the jobs you are applying for. Then submit the requisition url to Resume-Buddy. Resume-Buddy will then scrape the online job requisition for pertinent keywords, and will construct a new resume based on the keyword matches between the job requisition and your master resume. Resume-Buddy will then rate the strength your tailored resume, letting you know how likely it is to be flagged for review, and what you can add to the resume to strengthen it further.  
+  
+## Tech Details
