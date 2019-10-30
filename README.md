@@ -7,22 +7,22 @@ Introducing Resume-Buddy, a tool designed to automate the process of tailoring y
   
 ## Tech Details
 Resume-Buddy is intended to be a web-application connected to a database (to be specified later). It utilizes the python "flask" microframework as its backend with HTML, javascript, and the jinja2 templating engine on the backend. Bootstrap CDN is currently being used for page styling. The following tools and packages are being used in Resume-Buddy (versions can be seen in the 'requirements.txt' file:  
-* python 3.8: https://www.python.org/  
-** Server code is written in python  
-* Beautiful Soup 4: https://www.crummy.com/software/BeautifulSoup/  
-** Will be used for webscraping  
-* Flask: http://flask.palletsprojects.com/en/1.1.x/  
-** Microframework used for web-application development  
-* Flask-Bcrypt:https://flask-bcrypt.readthedocs.io/en/latest/  
-** Hashing library used to encrypt user passwords that are stored in a database  
-* Flak-Login: https://flask-login.readthedocs.io/en/latest/  
-** User-session management  
-* Flask-SQLAlchemy: https://flask-sqlalchemy.palletsprojects.com/en/2.x/  
-** Object Relational-Mapping (ORM) style interface between flask application and the relational database  
-* Flask-WTF: https://flask-wtf.readthedocs.io/en/stable/  
-** Object-Oriented form creation for flask  
-* lxml: https://lxml.de/  
-** XML and HTML processing  
+* python 3.8: https://www.python.org/
+  * Server code is written in python  
+* Beautiful Soup 4: https://www.crummy.com/software/BeautifulSoup/
+  * Will be used for webscraping  
+* Flask: http://flask.palletsprojects.com/en/1.1.x/
+  * Microframework used for web-application development  
+* Flask-Bcrypt:https://flask-bcrypt.readthedocs.io/en/latest/
+  * Hashing library used to encrypt user passwords that are stored in a database  
+* Flak-Login: https://flask-login.readthedocs.io/en/latest/
+  * User-session management  
+* Flask-SQLAlchemy: https://flask-sqlalchemy.palletsprojects.com/en/2.x/
+  * Object Relational-Mapping (ORM) style interface between flask application and the relational database  
+* Flask-WTF: https://flask-wtf.readthedocs.io/en/stable/
+  * Object-Oriented form creation for flask  
+* lxml: https://lxml.de/
+  * XML and HTML processing  
 * Requests: https://requests.kennethreitz.org/en/master/
   * HTTP request handling  
   
