@@ -1,0 +1,63 @@
+#This file contains keywords to look for related to engineering and technology fields when scraping a job requisition.
+#By convention, keywords are listed in alphabetical order.
+#This file is read and parsed in the 'init' function of the ReqScraper class
+#Lines that start with '#' are commented out and will not be considered as a keyword.
+#
+agile devops
+ai
+amazon web services
+angular
+angular.js
+architecture
+arduino
+arm
+artificial intelligence
+aws
+azure
+backbone
+backbone.js
+backend
+c
+cloud
+computer
+computer engineering
+css
+c#
+c++
+data
+database
+data science
+deep learning
+digital logic
+engineering
+frontend
+full stack
+full-stack
+git
+hardware
+html
+intel
+java
+javascript
+js
+machine
+machine learning
+microcontroller
+mips assembly
+mongo
+mongodb
+mysql
+node
+node.js
+nosql
+parallel processing
+perl
+postgres
+programming
+python
+react
+react.js
+ruby
+software
+sql
+web
