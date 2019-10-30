@@ -29,4 +29,13 @@ Resume-Buddy is intended to be a web-application connected to a database (to be 
 ## Getting Started  
 Follow the steps below for setting up your environment and installing.  
   
-## Contributing  
+## Contributing 
+Contributions are welcomed (and needed!). Below are some ways you can get involved in this project:  
+  
+* **Feature Development** - Help develop functional or miscellaneous features. Document all code additions and create a pull request with an explanation and justification for the addition. Make sure code conforms to conventions and standards used throughout this project. If there are pre-existing testcases, make sure they still pass prior to opening a pull request.  
+* **Bug Reporting and Bugfixes** - Report bugs discovered in code. Create an issue that documents the description of the bug and instructions on how to reproduce it. Use screenshots where necessary. If you produce a bugfix, document all changes to code and open a pull request. Ensure that changes conform to established code conventions and that testcases (if any) are passing prior to opening a pull request.  
+* **Testing** - Write testcases for code. Tests should follow the same conventions that feature code uses. Document testcases and open a pull request.  
+* **Documentation** - Write and maintain documentation for the project and code. This includes code comments, READMEs, and feature guides. Create a pull request with an explanation for the needed documentation change (or addition).  
+  
+### Standards and Conventions  
+
