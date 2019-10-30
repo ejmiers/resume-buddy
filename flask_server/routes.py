@@ -1,10 +1,12 @@
 from flask import render_template, url_for, flash, redirect
 from flask_server import app, db, bcrypt
-from flask_server.forms import LogInForm, SignUpForm
+from flask_server.forms import LogInForm, SignUpForm, ReqLookupForm
 from flask_server.db_models import Users
+from flask_server.reqscraper import ReqScraper
 from flask_bcrypt import Bcrypt
 from flask_login import login_user, current_user, logout_user
 from functools import wraps
+import os
 
 # Custom decorator that checks to see if a user has been authenticated as an account
 # Redirects to account login page
@@ -63,6 +65,34 @@ def signup():
             return redirect(url_for('login'))
 
     return render_template('signup.html', title='Sign Up', form=form)
+
+@app.route("/generate-resume", methods=['GET', 'POST'])
+def generateResume():
+    reqDict = {}
+    form = ReqLookupForm()
+
+    filepath = os.getcwd()
+    if os.name == 'nt':
+        filepath += "\\flask_server\\static\\req_classes.txt"
+    else:
+        filepath += "/flask_server/static/req_classes.txt"
+
+    choices = []
+    with open(filepath, 'r') as f:
+        for line in f:
+            if line != '' and line != '\n' and not line.startswith('#'):
+                line = line.rstrip("\n")
+                choices.append((line, line))
+
+    form.reqClass.choices = choices
+
+    if form.validate_on_submit():
+        reqScraper = ReqScraper(form.reqURL.data, form.reqClass.data)
+        reqScraper.scrape()
+        return redirect(url_for('home'))
+
+    return render_template('generate-resume.html', title='Generate Resume', form=form)
+
 
 # logout signed-in users
 # Redirect back to the home page
