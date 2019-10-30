@@ -23,7 +23,7 @@ Resume-Buddy is intended to be a web-application connected to a database (to be 
 ** Object-Oriented form creation for flask  
 * lxml: https://lxml.de/  
 ** XML and HTML processing  
-* Requests: https://requests.kennethreitz.org/en/master/  
-  *HTTP request handling  
+* Requests: https://requests.kennethreitz.org/en/master/
+  * HTTP request handling  
   
 ## Getting Started  
