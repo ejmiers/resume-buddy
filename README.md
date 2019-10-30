@@ -24,6 +24,6 @@ Resume-Buddy is intended to be a web-application connected to a database (to be 
 * lxml: https://lxml.de/  
 ** XML and HTML processing  
 * Requests: https://requests.kennethreitz.org/en/master/  
-** HTTP request handling  
+  *HTTP request handling  
   
 ## Getting Started  
