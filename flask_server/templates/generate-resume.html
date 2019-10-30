@@ -1,0 +1,44 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<div class="content-section">
+  <form method="POST" action="">
+    {{ form.hidden_tag() }}
+    <fieldset class="form-group">
+      <legend class="border-bottom mb-4">Build a Resume Based on Requisition Keywords</legend>
+      <div class="form-group">
+        {{ form.reqURL.label(class="form-control-label") }}
+
+        {% if form.reqURL.errors %}
+          {{ form.reqURL(class="form-control form-control-lg is-invalid") }}
+          <div class="invalid-feedback">
+            {% for error in form.reqURL.errors %}
+              <span>{{ error }}</span>
+            {% endfor %}
+          </div>
+        {% else %}
+          {{ form.reqURL(class="form-control form-control-lg") }}
+        {% endif %}
+      </div>
+      <div class="form-group">
+        {{ form.reqClass.label(class="form-control-label") }}
+
+        {% if form.reqClass.errors %}
+          {{ form.reqClass(class="form-control form-control-lg is-invalid") }}
+          <div class="invalid-feedback">
+            {% for error in form.reqClass.errors %}
+              <span>{{ error }}</span>
+            {% endfor %}
+          </div>
+        {% else %}
+          {{ form.reqClass(class="form-control form-control-lg") }}
+        {% endif %}
+      </div>
+    </fieldset>
+    <div class="form-group">
+      {{ form.submit(class="btn btn-outline-info")}}
+    </div>
+  </form>
+</div>
+
+{% endblock content %}
