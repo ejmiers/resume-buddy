@@ -15,3 +15,8 @@ class SignUpForm(FlaskForm):
         DataRequired(), Length(min=8, max=25), EqualTo('passwordConfirm', message='Passwords must match')])
     passwordConfirm = PasswordField('Confirm Password', validators=[DataRequired()])
     submit = SubmitField('Create Account')
+
+class ReqLookupForm(FlaskForm):
+    reqURL = StringField('Requisition URL', validators=[DataRequired()])
+    reqClass = SelectField('Requisition Classification', validators=[DataRequired()])
+    submit = SubmitField('Generate')
