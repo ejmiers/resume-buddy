@@ -27,3 +27,6 @@ Resume-Buddy is intended to be a web-application connected to a database (to be 
   * HTTP request handling  
   
 ## Getting Started  
+Follow the steps below for setting up your environment and installing.  
+  
+## Contributing  
