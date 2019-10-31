@@ -30,4 +30,4 @@ Resume-Buddy is intended to be a web-application connected to a database (to be 
 Follow the steps below for setting up your environment and installing.  
   
 ## Contributing 
-Contributions are welcomed (and needed!). See the CONTRIBUTING.md file for information on how to get involved.
+Contributions are welcomed (and needed!). See [CONTRIBUTING.md](CONTRIBUTING.md) for information on how to get involved.
