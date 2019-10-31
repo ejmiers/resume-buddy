@@ -91,7 +91,7 @@ def generateResume():
         reqScraper.scrape()
         return redirect(url_for('home'))
 
-    return render_template('generate-resume.html', title='Generate Resume', form=form)
+    return render_template('generate_resume.html', title='Generate Resume', form=form)
 
 
 # logout signed-in users
