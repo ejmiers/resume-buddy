@@ -7,7 +7,7 @@ Introducing Resume-Buddy, a tool designed to automate the process of tailoring y
   
 ## Tech Details
 Resume-Buddy is intended to be a web-application connected to a database (to be specified later). It utilizes the python "flask" microframework as its backend with HTML, javascript, and the jinja2 templating engine on the backend. Bootstrap CDN is currently being used for page styling. The following tools and packages are being used in Resume-Buddy (versions can be seen in the 'requirements.txt' file:  
-* python 3.8: https://www.python.org/
+* Python 3.8: https://www.python.org/
   * Server code is written in python  
 * Beautiful Soup 4: https://www.crummy.com/software/BeautifulSoup/
   * Will be used for webscraping  
