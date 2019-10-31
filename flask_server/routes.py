@@ -2,7 +2,7 @@ from flask import render_template, url_for, flash, redirect
 from flask_server import app, db, bcrypt
 from flask_server.forms import LogInForm, SignUpForm, ReqLookupForm
 from flask_server.db_models import Users
-from flask_server.reqscraper import ReqScraper
+from flask_server.req_scraper import ReqScraper
 from flask_bcrypt import Bcrypt
 from flask_login import login_user, current_user, logout_user
 from functools import wraps
