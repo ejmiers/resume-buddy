@@ -20,7 +20,7 @@ Code styling, documentation, and branch development should generally follow thes
   * All functions and classes should be documented using Google-Style Docstrings. This should document the function or class' purpose, any arguments, any attributes, and any return values. An example of this style is described here: https://www.datacamp.com/community/tutorials/docstrings-python#sixth-sub
   * Remove any superfluous imports. Where possible, import specific functions from a package instead of importing the entire package. If you need to add a new import to the project:
     * Update the 'requirements.txt' file after installing the package. This can be done through the command: `pip3 freeze > requirements.txt`
-    * Document the package in the README under the [Tech Details](#Tech-Details) section.
+    * Document the package in the README under the [Tech Details](#README.md#Tech-Details) section.
     * Create a justification for the new package from within the pull request.
   * If any I/O should be performed, do this using a `with` statement. This ensures that I/O streams will be properly handled. Include exception handling where necessary.
   * Try not to repeat code. If you find yourself repeating code, write a function!  
